@@ -14,14 +14,16 @@ while True:
     board.digitalWrite(pin, LOW)
     time.sleep(1)
 ````
-**All functions suppported are**
-*pinMode(pin, set_to)
-*digitalWrite(pin, set_to)
-*digitalRead(pin)
-*analogWrite(pin, set_to)
-*analogRead(pin, set_to)
-*closeAll()       ->sends low to all the OUTPUT pins.
-*close()          ->closes the serial for communication.
+**All supported functions are**
+pinMode(pin, set_to)
+digitalWrite(pin, set_to)
+digitalRead(pin)
+analogWrite(pin, set_to)
+analogRead(pin, set_to)
+closeAll()       ->sends low to all the OUTPUT pins.
+close()          ->closes the serial for communication.
 
-#####Requirements- Python 2.x and pyserial.
+#####Requirements- 
+Python 2.x and pyserial.
+
 More sample codes given in Examples Folder.
