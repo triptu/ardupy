@@ -26,7 +26,7 @@ digitalRead(pin)
 
 analogWrite(pin, set_to)
 
-analogRead(pin, set_to)
+analogRead(pin)
 
 closeAll()       ->sends low to all the OUTPUT pins.
 
